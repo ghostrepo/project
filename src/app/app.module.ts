@@ -7,7 +7,7 @@ import { NavComponent } from './nav/nav.component';
 import { FloorPlanComponent } from './floor-plan/floor-plan.component';
 import { ZipCodeComponent } from './zip-code/zip-code.component';
 import { DataProcessComponent } from './data-process/data-process.component';
-import { DragDropComponent } from './drag-and-drop/drag-drop.component';
+import { DragDropComponent } from './drag-drop/drag-drop.component';
 
 @NgModule({
   declarations: [
