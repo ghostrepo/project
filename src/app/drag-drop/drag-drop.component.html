@@ -1,0 +1,11 @@
+<form>
+    <h4>mat-select</h4>
+    <mat-form-field appearance="fill">
+        <mat-label>Component type</mat-label>
+        <mat-select [(ngModel)]="selectedApp" name="appliances">
+            <mat-option *ngFor="let appliances of appliances" [value]="appliances.value">
+                {{appliances.viewValue}}
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
+</form>
