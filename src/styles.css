@@ -1,5 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 
+.buttonstyle {
+  background-color: #1d70a0;
+  border-color: #1d70a0;
+  color: white;
+  padding: 20px 30px;
+  font-size: 20px;
+
+  &:hover, &:focus, &:active {
+    border-color: $main-color !important;
+    background-color: 
+  }
+
+}
+
 .hoverwell:hover {
   background-color: #485563;
   cursor: pointer;
