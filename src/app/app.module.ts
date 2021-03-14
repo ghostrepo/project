@@ -1,11 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { FloorPlanComponent } from './floor-plan/floor-plan.component';
 import { ZipCodeComponent } from './zip-code/zip-code.component';
 import { DataProcessComponent } from './data-process/data-process.component';
+import { DragDropComponent } from './drag-and-drop/drag-drop.component';
 
 @NgModule({
   declarations: [
@@ -13,10 +15,12 @@ import { DataProcessComponent } from './data-process/data-process.component';
     NavComponent,
     FloorPlanComponent,
     ZipCodeComponent,
-    DataProcessComponent
+    DataProcessComponent,
+    DragDropComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    DragDropModule
   ],
   providers: [],
   bootstrap: [AppComponent]
