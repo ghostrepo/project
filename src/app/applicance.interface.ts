@@ -1,9 +1,11 @@
 import { ApplianceTypes } from './app-types';
 import { Locations } from './app-location';
 
-export interface Appliances {
+export interface ApplianceInterface {
    id: number;
+   x: string;
+   y: string;
+   emf: number;
    type: ApplianceTypes;
-   location: Locations;
-//    emField: ;
+   location?: Locations;
 }
