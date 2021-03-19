@@ -6,5 +6,15 @@ import { ApplianceTypes } from './app-types';
 })
 export class ApplianceService {
 
+
+  appliances = [
+    {
+      // id: number,
+      type: ApplianceTypes,
+
+    }
+
+  ];
+
   constructor() { }
 }
