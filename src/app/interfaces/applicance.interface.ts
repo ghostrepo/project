@@ -1,5 +1,5 @@
-import { ApplianceTypes } from './app-types';
-import { Locations } from './app-location';
+import { ApplianceTypes } from '../app-types';
+import { Locations } from '../app-location';
 
 export interface ApplianceInterface {
    id: number;
