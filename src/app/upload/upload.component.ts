@@ -5,11 +5,11 @@ class ImageSnippet {
 }
 
 @Component({
-  selector: 'app-floor-plan',
-  templateUrl: './floor-plan.component.html',
-  styleUrls: ['./floor-plan.component.css']
+  selector: 'app-upload',
+  templateUrl: './upload.component.html',
+  styleUrls: ['./upload.component.css']
 })
-export class FloorPlanComponent implements OnInit {
+export class UploadComponent implements OnInit {
 
   selectedFile: ImageSnippet;
 
