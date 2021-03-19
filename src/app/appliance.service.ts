@@ -9,7 +9,7 @@ export class ApplianceService {
 
   appliances = [
     {
-      id: number,
+      // id: number,
       type: ApplianceTypes,
 
     }
